@@ -1,0 +1,25 @@
+sname=input('enter student name:')
+srno=int(input('enter rollno:'))
+sgroup=input('enter student group:')
+s1=int(input('accounts marks:'))
+s2=int(input('operating system marks:'))
+s3=int(input('java marks:'))
+s4=int(input('english marks:'))
+s5=int(input('hindi marks:'))
+s6=int(input('analytical skills marks:'))
+if s1>=35 and s2>=35 and s3>=35 and s4>=35 and s5>=35 and s6>=35:
+    print("pass")
+else:
+    print("fail")
+    
+ output :
+enter student name:bhargavi
+enter rollno:49
+enter student group:BCA
+accounts marks:50
+operating system marks:45
+java marks:45
+english marks:50
+hindi marks:55
+analytical skills marks:45
+pass
